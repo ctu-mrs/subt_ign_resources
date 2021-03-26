@@ -1,0 +1,10 @@
+<package format="2">
+  <name>subt_ign_resources</name>
+  <version>0.1.0</version>
+  <description>Model and world files for ignition Gazebo related to the DARPA SubT Virtual Challenge</description>
+  <license>Apache 2.0</license>
+  <maintainer email="matej.petrlik@fel.cvut.cz">Matej Petrlik</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
