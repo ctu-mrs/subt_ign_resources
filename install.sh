@@ -15,7 +15,7 @@ echo "Downloading models from NAS"
 wget --no-check-certificate -O $FILENAME_PILSEN_TESTBED https://nasmrs.felk.cvut.cz/index.php/s/6fFN8GhhstoSkLA/download
 wget --no-check-certificate -O $FILENAME_LOUISEVILLE https://nasmrs.felk.cvut.cz/index.php/s/fE1sNg0IqeF4v6s/download
 wget --no-check-certificate -O $FILENAME_BYCI_SKALA_SMALL https://nasmrs.felk.cvut.cz/index.php/s/NdaQuZ3PIGQMWSg/download
-wget --no-check-certificate -O $FILENAME_BYCI_SKALA_LARGE https://nasmrs.felk.cvut.cz/index.php/s/DbWSDbs8GqrDpkl/download
+wget --no-check-certificate -O $FILENAME_BYCI_SKALA_LARGE https://nasmrs.felk.cvut.cz/index.php/s/Uu9MU3OwhDACU1d/download
 
 
 echo "Unzipping models"
