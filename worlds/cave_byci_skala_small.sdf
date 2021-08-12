@@ -3,6 +3,20 @@
 <sdf version="1.6">
   <world name="cave_byci_skala_small">
 
+    <!-- Plugins {-->-->
+    <plugin name="mrs_gazebo_static_transform_republisher_plugin" filename="libMRSGazeboStaticTransformRepublisher.so"/>
+      <!--<!--}-->
+
+    <!-- Spherical Coordinates {-->-->
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <latitude_deg>47.397743</latitude_deg>
+      <longitude_deg>8.545594</longitude_deg>
+      <elevation>0.0</elevation>
+      <heading_deg>0</heading_deg>
+    </spherical_coordinates>
+    <!--<!--}-->
+
 <!-- Physics {-->-->
     <physics name="1ms" type="ode">
       <max_step_size>0.004</max_step_size>
